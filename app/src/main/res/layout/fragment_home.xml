@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.bigappcompany.gstindia.view.ViewPagerCustomDuration
+        android:id="@+id/vp_slider_home"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:background="@android:color/background_light" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/thin"
+                android:paddingTop="@dimen/thin"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/Home_Category_Label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_law" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_law"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv_igst"
+                            style="@style/Home_Category_Item"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_igst"
+                            android:tag="0"
+                            android:text="@string/igst_law" />
+
+                        <TextView
+                            android:id="@+id/tv_sgst"
+                            style="@style/Home_Category_Item"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_sgst"
+                            android:tag="1"
+                            android:text="@string/sgst_law" />
+
+                        <TextView
+                            android:id="@+id/tv_cgst"
+                            style="@style/Home_Category_Item"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_cgst"
+                            android:tag="2"
+                            android:text="@string/cgst_law" />
+
+                        <TextView
+                            android:id="@+id/tv_utgst"
+                            style="@style/Home_Category_Item"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_transitional_provisional"
+                            android:tag="3"
+                            android:text="@string/utgst_law" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+
+                        <TextView
+                            android:id="@+id/tv_other"
+                            style="@style/Home_Category_Item"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_other"
+                            android:tag="4"
+                            android:text="@string/other" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/home_item_border_top" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/home_item_border_top" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/home_item_border_top" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:paddingBottom="@dimen/thin"
+                android:paddingTop="@dimen/thin"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/Home_Category_Label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/resources" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv_registration"
+                            style="@style/Home_Category_Item"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_registration"
+                            android:text="@string/registration" />
+
+                        <TextView
+                            android:id="@+id/tv_calculator"
+                            style="@style/Home_Category_Item"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_calculator"
+                            android:text="@string/calculator" />
+
+                        <TextView
+                            android:id="@+id/tv_rate"
+                            style="@style/Home_Category_Item"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_rate"
+                            android:text="@string/rate" />
+
+                        <TextView
+                            android:id="@+id/tv_tutorials"
+                            style="@style/Home_Category_Item"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_tutorial"
+                            android:text="@string/tutorials" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+
+                        <TextView
+                            android:id="@+id/tv_transitional_provisional"
+                            style="@style/Home_Category_Item"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_transitional_provisional"
+                            android:text="@string/transitional_provisional"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/tv_about_us"
+                            style="@style/Home_Category_Item"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_about_us"
+                            android:text="@string/about_us" />
+
+                        <TextView
+                            android:id="@+id/tv_contact_us"
+                            style="@style/Home_Category_Item"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_contact_us"
+                            android:text="@string/contact_us" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/home_item_border_top" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/home_item_border_top" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

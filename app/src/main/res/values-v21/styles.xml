@@ -1,0 +1,22 @@
+<resources>
+
+	<style name="ViewPagerEdgeEffect_IGST">
+		<item name="android:colorEdgeEffect">@color/colorIGST</item>
+	</style>
+
+	<style name="ViewPagerEdgeEffect_SGST">
+		<item name="android:colorEdgeEffect">@color/colorSGST</item>
+	</style>
+
+	<style name="ViewPagerEdgeEffect_CGST">
+		<item name="android:colorEdgeEffect">@color/colorCGST</item>
+	</style>
+
+	<style name="ViewPagerEdgeEffect_UTGST">
+		<item name="android:colorEdgeEffect">@color/colorUTGST</item>
+	</style>
+
+	<style name="ViewPagerEdgeEffect_OTHER">
+		<item name="android:colorEdgeEffect">@color/colorOTHER</item>
+	</style>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<android.support.v7.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingBottom="@dimen/thin"
+		android:paddingTop="@dimen/thin"
+		app:cardCornerRadius="0dp"
+		app:cardElevation="@dimen/thin">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<TextView
+					android:id="@+id/tv_act"
+					style="@style/Law_Category_Item"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:drawableTop="@drawable/ic_sgst_act_24dp"
+					android:tag="0"
+					android:text="@string/act"/>
+
+				<TextView
+					android:id="@+id/tv_rules"
+					style="@style/Law_Category_Item"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:drawableTop="@drawable/ic_sgst_rules_24dp"
+					android:tag="1"
+					android:text="@string/rules"/>
+
+				<TextView
+					android:id="@+id/tv_forms"
+					style="@style/Law_Category_Item"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:drawableTop="@drawable/ic_sgst_forms_24dp"
+					android:tag="2"
+					android:text="@string/forms"/>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:weightSum="3">
+
+				<TextView
+					android:id="@+id/tv_notification"
+					style="@style/Law_Category_Item"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:drawableTop="@drawable/ic_sgst_notification_24dp"
+					android:tag="3"
+					android:text="@string/notification"/>
+			</LinearLayout>
+		</LinearLayout>
+	</android.support.v7.widget.CardView>
+</LinearLayout>

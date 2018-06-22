@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/white"
+	android:orientation="vertical">
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<ImageView
+			android:id="@+id/iv_featured"
+			android:layout_width="match_parent"
+			android:layout_height="200dp"
+			android:contentDescription="@string/featured_image"/>
+
+		<ImageView
+			android:id="@+id/clpb_featured"
+			android:layout_width="20dp"
+			android:layout_height="20dp"
+			android:layout_gravity="center"
+			android:contentDescription="@string/featured_image"
+			android:src="@drawable/progress_animation"/>
+	</FrameLayout>
+
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="@dimen/activity_horizontal_margin">
+
+		<TextView
+			android:id="@+id/tv_date"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:fontFamily="sans-serif-light"
+			android:textAllCaps="true"
+			android:textColor="#848484"
+			android:textSize="10sp"
+			tools:text="18TH MAY 2017"/>
+
+		<TextView
+			android:id="@+id/tv_title"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/narrow"
+			android:fontFamily="sans-serif-large"
+			android:textColor="#545454"
+			android:textSize="24sp"
+			android:textStyle="bold"
+			tools:text="THE STANDARD LOREM IPSUM PASSAGE, USED SINCE THE 1500S"/>
+
+		<TextView
+			android:id="@+id/tv_author"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/narrow"
+			android:fontFamily="sans-serif-light"
+			android:textAllCaps="true"
+			android:textColor="#848484"
+			android:textSize="10sp"
+			tools:text="Author: Samuel Robert"/>
+
+		<TextView
+			android:id="@+id/tv_brief_desc"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/narrow"
+			android:fontFamily="sans-serif-medium"
+			android:textColor="#848484"
+			tools:text="Lorem ipsum dfdjlkfjdlfkj"/>
+
+		<android.support.v7.widget.AppCompatButton
+			android:id="@+id/btn_read_more"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="18dp"
+			android:background="@drawable/bg_button"
+			android:minHeight="0dp"
+			android:minWidth="0dp"
+			android:paddingBottom="8dp"
+			android:paddingEnd="@dimen/activity_horizontal_margin"
+			android:paddingStart="@dimen/activity_horizontal_margin"
+			android:paddingTop="8dp"
+			android:text="@string/read_more"
+			android:textColor="@color/colorPrimary"
+			android:textSize="12sp"
+			android:textStyle="bold"/>
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1px"
+			android:layout_marginBottom="@dimen/narrow"
+			android:layout_marginTop="24dp"
+			android:background="#E1E1E1"/>
+	</LinearLayout>
+</LinearLayout>

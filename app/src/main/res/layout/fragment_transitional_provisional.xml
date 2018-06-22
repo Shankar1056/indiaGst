@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<android.support.v7.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingBottom="@dimen/thin"
+		android:paddingTop="@dimen/thin"
+		app:cardCornerRadius="0dp"
+		app:cardElevation="@dimen/thin">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<TextView
+				android:id="@+id/tv_procedure"
+				style="@style/Law_Category_Item"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:drawableTop="@drawable/ic_transitional_provisional_procedure_24dp"
+				android:paddingBottom="36dp"
+				android:paddingTop="36dp"
+				android:text="@string/procedure"/>
+
+			<TextView
+				android:id="@+id/tv_forms"
+				style="@style/Law_Category_Item"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:drawableTop="@drawable/ic_forms_transitional_provisions_24dp"
+				android:paddingBottom="36dp"
+				android:paddingTop="36dp"
+				android:text="@string/forms"/>
+		</LinearLayout>
+	</android.support.v7.widget.CardView>
+</LinearLayout>

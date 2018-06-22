@@ -1,0 +1,48 @@
+{
+  "status": 0,
+  "data": [
+    {
+      "id": "5",
+      "tutorial_category": "Registration",
+      "video_title": "Introduction of GST : Part 4",
+      "video_link": "https:\/\/www.youtube.com\/embed\/5y86C4pfcRI?ecver=1",
+      "video_id": "5y86C4pfcRI"
+    },
+    {
+      "id": "2",
+      "tutorial_category": "Registration",
+      "video_title": "Introduction of GST   Part 1",
+      "video_link": "https:\/\/www.youtube.com\/embed\/5y86C4pfcRI?ecver=1",
+      "video_id": "5y86C4pfcRI"
+    },
+    {
+      "id": "3",
+      "tutorial_category": "Registration",
+      "video_title": "Introduction of GST   Part 2",
+      "video_link": "https:\/\/www.youtube.com\/embed\/5y86C4pfcRI?ecver=1",
+      "video_id": "5y86C4pfcRI"
+    },
+    {
+      "id": "4",
+      "tutorial_category": "Registration",
+      "video_title": "Introduction of GST   Part 3",
+      "video_link": "https:\/\/www.youtube.com\/embed\/5y86C4pfcRI?ecver=1",
+      "video_id": "5y86C4pfcRI"
+    },
+    {
+      "id": "6",
+      "tutorial_category": "Registration",
+      "video_title": "Introduction of GST : Part 5",
+      "video_link": "https:\/\/www.youtube.com\/embed\/5y86C4pfcRI?ecver=1",
+      "video_id": "5y86C4pfcRI"
+    },
+    {
+      "id": "7",
+      "tutorial_category": "Registration",
+      "video_title": "Introduction of GST : Part 6",
+      "video_link": "https:\/\/www.youtube.com\/embed\/5y86C4pfcRI?ecver=1",
+      "video_id": "5y86C4pfcRI"
+    }
+  ],
+  "next": ""
+}

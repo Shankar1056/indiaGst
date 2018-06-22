@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<android.support.v7.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingBottom="@dimen/thin"
+		android:paddingTop="@dimen/thin"
+		app:cardCornerRadius="0dp"
+		app:cardElevation="@dimen/thin">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<TextView
+				android:id="@+id/tv_article"
+				style="@style/Law_Category_Item"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:drawableTop="@drawable/ic_tutorials_articals_24dp"
+				android:text="@string/articles"/>
+
+			<TextView
+				android:id="@+id/tv_videos"
+				style="@style/Law_Category_Item"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:drawableTop="@drawable/ic_tutorials_videos_24dp"
+				android:text="@string/videos"/>
+
+			<TextView
+				android:id="@+id/tv_presentations"
+				style="@style/Law_Category_Item"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:drawableTop="@drawable/ic_presentation_24dp"
+				android:text="@string/presentations"/>
+		</LinearLayout>
+	</android.support.v7.widget.CardView>
+</LinearLayout>

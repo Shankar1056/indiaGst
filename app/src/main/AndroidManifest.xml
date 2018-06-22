@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bigappcompany.gstindia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.HomeActivity"
+            android:label="@string/label_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LawActivity"
+            android:label="@string/law"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.IGST" />
+        <activity
+            android:name=".activity.ActActivity"
+            android:label="@string/act_caps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.RulesActivity"
+            android:label="@string/title_rules"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ChapterActivity"
+            android:label="@string/title_act_detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WebActivity"
+            android:label="@string/title_description"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.FormsActivity"
+            android:label="@string/title_form"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TutorialActivity"
+            android:label="@string/title_tutorials"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.tutorial" />
+        <activity
+            android:name=".activity.ArticleActivity"
+            android:label="@string/title_articles"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.VideoActivity"
+            android:label="@string/title_videos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PresentationActivity"
+            android:label="@string/title_presentation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.RegistrationActivity"
+            android:label="@string/title_registration"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Registration" />
+        <activity
+            android:name=".activity.TransitionalProvisionalActivity"
+            android:label="@string/title_transitional_provisional"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.TransitionalProvisional" />
+        <activity android:name=".activity.EnrollmentActivity" />
+        <activity android:name=".activity.WebInterfaceActivity" />
+        <activity
+            android:name=".activity.ProcedureActivity"
+            android:label="@string/procedure"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TPFormsActivity"
+            android:label="@string/procedure"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AboutUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ContactUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.NotificationActivity"
+            android:label="@string/notification"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.WebViewActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

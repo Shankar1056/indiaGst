@@ -1,0 +1,116 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@android:color/white</item>
+		<item name="titleTextColor">@color/white</item>
+		<item name="android:windowBackground">@color/colorWindowBackground</item>
+	</style>
+
+	<!-- Appbar & Toolbar theme -->
+	<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+	<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+	<style name="AppTheme.Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+		<item name="android:textSize">16sp</item>
+	</style>
+
+	<!-- TabLayout styles -->
+	<style name="AppTheme.TabLayout" parent="TextAppearance.Design.Tab">
+		<item name="tabTextAppearance">@style/AppTheme.TabTextAppearance</item>
+	</style>
+
+	<style name="AppTheme.TabTextAppearance" parent="TextAppearance.Design.Tab">
+		<item name="textAllCaps">false</item>
+		<item name="android:textSize">11sp</item>
+	</style>
+
+	<!-- Home fragment styles -->
+	<style name="Home_Category_Label" parent="TextAppearance.AppCompat.Caption">
+		<item name="android:textColor">@color/colorCategory</item>
+		<item name="android:textSize">13sp</item>
+		<item name="android:paddingStart">@dimen/activity_horizontal_margin</item>
+		<item name="android:paddingEnd">@dimen/activity_horizontal_margin</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:padding">@dimen/thin</item>
+	</style>
+
+	<style name="Home_Category_Item" parent="TextAppearance.AppCompat.Small">
+		<item name="android:textColor">@color/colorSubCategory</item>
+		<item name="android:textSize">11sp</item>
+		<item name="android:padding">8dp</item>
+		<item name="android:lines">2</item>
+		<item name="android:background">@drawable/home_item_border</item>
+		<item name="android:gravity">center</item>
+	</style>
+
+	<style name="Law_Category_Item" parent="TextAppearance.AppCompat.Small">
+		<item name="android:textColor">@color/colorSubCategory</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:paddingBottom">32dp</item>
+		<item name="android:paddingTop">32dp</item>
+		<item name="android:paddingStart">16dp</item>
+		<item name="android:paddingEnd">16dp</item>
+		<item name="android:lines">2</item>
+		<item name="android:background">@drawable/law_item_border</item>
+		<item name="android:gravity">center</item>
+	</style>
+
+	<!-- Law Activity Themes -->
+	<style name="AppTheme.IGST">
+		<item name="colorPrimary">@color/colorIGST</item>
+		<item name="colorPrimaryDark">@color/colorIGST</item>
+	</style>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme.SGST">
+		<item name="colorPrimary">@color/colorSGST</item>
+		<item name="colorPrimaryDark">@color/colorSGST</item>
+	</style>
+
+	<!-- Base application theme. -->
+	<style name="CGST" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="colorPrimary">@color/colorCGST</item>
+		<item name="colorPrimaryDark">@color/colorCGST</item>
+	</style>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme.OTHER">
+		<item name="colorPrimary">@color/colorOTHER</item>
+		<item name="colorPrimaryDark">@color/colorOTHER</item>
+	</style>
+
+	<style name="AppTheme.tutorial">
+		<item name="colorPrimary">@color/colorTutorial</item>
+		<item name="colorPrimaryDark">@color/colorTutorialDark</item>
+	</style>
+
+	<style name="AppTheme.Registration">
+		<item name="colorPrimary">@color/colorRegistration</item>
+		<item name="colorPrimaryDark">@color/colorRegistrationDark</item>
+	</style>
+
+	<style name="AppTheme.TransitionalProvisional">
+		<item name="colorPrimary">@color/colorTransitionalProvisional</item>
+		<item name="colorPrimaryDark">@color/colorTransitionalProvisionalDark</item>
+	</style>
+
+	<style name="MyTitleTextStyle">
+		<item name="android:textColor">@color/white</item>
+		<item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+	</style>
+
+	<style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+		<!-- Used for the buttons -->
+		<item name="colorAccent">@color/white</item>
+		<!-- Used for the title and text -->
+		<item name="android:textColorPrimary">#FFFFFF</item>
+		<!-- Used for the background -->
+		<item name="android:background">@color/colorPrimary</item>
+
+		<item name="android:windowTitleStyle">@style/MyTitleTextStyle</item>
+	</style>
+</resources>

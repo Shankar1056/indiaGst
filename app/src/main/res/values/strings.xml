@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">GST India</string>
+    <string name="label_home">GST</string>
+    <string name="search">Search</string>
+    <string name="label_law">Law</string>
+    <string name="igst_law">IGST Law</string>
+    <string name="sgst_law">SGST Law</string>
+    <string name="cgst_law">CGST Law</string>
+    <string name="utgst_law">UTGST Law</string>
+    <string name="other">Other</string>
+    <string name="registration">Registration</string>
+    <string name="calculator">Calculator</string>
+    <string name="rate">Rate</string>
+    <string name="tutorials">Tutorials</string>
+    <string name="transitional_provisional">Transitional Provisional</string>
+    <string name="about_us">About Us</string>
+    <string name="mission">Mission</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="resources">Resources</string>
+    <string name="banner">Banner</string>
+    <string name="law">LAW</string>
+    <string name="act">Act</string>
+    <string name="rules">Rules</string>
+    <string name="title_rules">RULES</string>
+    <string name="forms">Forms</string>
+    <string name="notification">Notification</string>
+    <string name="act_caps">ACT</string>
+    <string name="title_act_detail">ACT DETAIL</string>
+    <string name="title_form">FORM</string>
+    <string name="title_description">DESCRIPTION</string>
+    <string name="perm_not_granted">Please grant permission to download the file</string>
+    <string name="download_complete">Download has been completed</string>
+    <string name="yes_go_ahead">Yes, Go ahead</string>
+    <string name="may_be_later">May be later</string>
+    <string name="featured_image">Featured Image</string>
+    <string name="read_more">read more</string>
+    <string name="prefix_author">Author: %s</string>
+    <string name="title_tutorials">TUTORIALS</string>
+    <string name="articles">Articles</string>
+    <string name="videos">Videos</string>
+    <string name="presentations">Presentations</string>
+    <string name="title_articles">ARTICLES</string>
+    <string name="title_videos">VIDEOS</string>
+    <string name="icon">icon</string>
+    <string name="title_presentation">PRESENTATIONS</string>
+    <string name="enrollment_process">enrollment\nprocess</string>
+    <string name="new_registration">new\nregistration</string>
+    <string name="already_registered">already\nregistered</string>
+    <string name="title_registration">REGISTRATION</string>
+    <string name="title_transitional_provisional">TRANSITIONAL PROVISIONAL</string>
+    <string name="procedure">Procedure</string>
+    <string name="title_calculator">CALCULATOR</string>
+    <string name="title_rate">RATE</string>
+    <string name="english">English</string>
+    <string name="view">View</string>
+    <string name="hindi">Hindi</string>
+    <string name="hindi_txt">देखें</string>
+    <string name="subject">Subject</string>
+    <string name="click_here">Click Here.</string>
+    <string name="registration_txt">Registration under GST:</string>
+    <string name="registration_txt2">Liability to register:</string>
+    <string name="registration_txt3">Nature of registration:</string>
+    <string name="registration_txt4">Assistance in obtaining GST Registration:</string>
+    <string name="registration_txt5">Need Registration under GST?</string>
+    <string name="registration_txt_des6">Our fee for assistance in obtaining registration would be INR 6,000/- and you may get in touch with us at <font color="#ffff00">contact@indiagst.com</font> for assistance on obtaining GST registration and for payment link or call us for any clarification. We assure you the best of our services.</string>
+    <string name="registration_txt_des5">Please provided us the information in the appended format and we shall be glad to assist you in obtaining registration under GST in any State in India. Please click the link to get format in which the information is needed</string>
+    <string name="registration_txt_des4">We can help you in obtaining your GST registration in any State. We will need the following information:\n
+
+1. Business details\n
+2. Details of stake-holders (owners/ directors)\n
+3. Details of authorized signatory\n
+4. Details of principal and other place of business\n
+5. Details of supplies to be made under GST\n
+6. Bank account details</string>
+    <string name="registration_txt_des3">The registration in GST is PAN based and State specific. Supplier has to register in each of such State or Union territory from where he effects taxable supplies. In GST registration, the supplier is allotted a 15-digit GST identification number called “GSTIN”, and a certificate of registration incorporating therein this GSTIN is made available to the applicant on the GSTN common portal. The first 2 digits of the GSTIN is the State code, next 10 digits are the PAN of the legal entity, the next two digits are for entity code, and the last digit is check sum number. For eg. A dealer in Karnataka having PAN Number AAAIC1234Z, may be given a GST number as 29AAAIC1234Z1ZS. Registration under GST is single registration for all the taxes i.e. CGST, SGST/UTGST, IGST and cesses, linked to a particular State.
+
+A business entity having separate business verticals in a state may obtain separate registration for each of its business verticals. The GST law enlists certain categories of suppliers who are required to get compulsory registration irrespective of their turnover that is to say, the threshold exemption of 20 lakh is not available to them. Some of such suppliers who need to register compulsorily irrespective of the size of their turnover are:\n
+* Inter-state suppliers\n
+* A person receiving supplies on which tax is payable by recipient on reverse charge basis\n
+* Casual taxable person who is not having fixed place of business in the State or Union Territory from where he wants to make supply\n
+* Non-resident taxable persons who are not having fixed place of business in India\n
+* A person who supplies on behalf of some other taxable person (i.e. an Agent of some Principal)\n
+* E-commerce operators, who provide platform to the suppliers to supply through it\n
+* Suppliers who supply through an e-commerce operator\n
+* Those ecommerce operators who are notified as liable for GST payment under Section 9(5)\n
+* TDS Deductor\n
+* Those supplying online information and data base access or retrieval services from outside India to a non-registered person in India.</string>
+    <string name="registration_txt_des2">GST being a tax on “supply”, every supplier of goods or services would need to get themselves registered under the GST law. Small businesses having all India aggregate turnover below INR 20 lakh (10 lakh if business is in Assam, Arunachal Pradesh, J&amp;K, Himachal Pradesh, Uttarakhand, Manipur, Mizoram, Sikkim, Meghalaya, Nagaland or Tripura) need not register, though they may voluntarily opt to register. The aggregate turnover includes supplies made by him on behalf of his principals, but excludes the value of job-worked goods if he is a job worker. But persons who are engaged exclusively in the business of supplying goods or services or both that are not liable to tax or wholly exempt from tax or an agriculturist, to the extent of supply of produce out of cultivation of land are not liable to register under GST.</string>
+    <string name="registration_txt_des1">In any tax system, registration is the most fundamental requirement for identification of tax payers ensuring compliance. Registration of any business entity under the GST Law implies obtaining a unique number from the concerned tax authorities for the purpose of charging and collecting tax on behalf of the government, to avail Input Tax Credit for the taxes on his inward supplies and to pay the net taxes due to the exchequer. Registration also entitles benefits of tax refunds to exporters.</string>
+    <string name="notification_num">Notification No. &amp; Date of Issue</string>
+    <string name="mission_description">Our vision is to be the most preferred service provider in the field of accounting, consulting, legal and tax services. We draw our vision is to be a global firm working with INTEGRITY, growing on the strength of KNOWLEDGE, building CLIENT DELIGHT and always being INNOVATIVE in the knowledge space.</string>
+    <string name="about_us_description">Accolet has been incorporated as a limited liability company under the Indian Companies Act on 18-Mar-2010. Our founder invented the name ‘Accolet’. Accolet is an abbreviated or coined name signifying its focus in the field of Accounting (AC), Consulting (CO), Legal (LE) and Tax (T) services. The core values for our organization, which are demonstrated by being, having and working with:
+        Integrity, Knowledge, Client Delight, Innovative.</string>
+    <string name="about_us_description2">IndiaGST is a division of Accolet Advisors Private Limited, led by experienced team of professionals who intend to make the understanding of the GST law simple, to its users and stake-holders, by providing the user with right knowledge, correct understanding, simple illustrations and enabling compliance to GST law, with ease.\n\n IndiaGST is backed by professionals specializing in Goods and Services Tax Law, having strong understanding of the law as has been implemented in India and of the law, as has been implemented in several regions, globally.\n\n The GST law in India, is largely borrowed from the European Union’s VAT law, and has been applied based on dual tax jurisdictions of Canada and Brazil. However though, the law as implemented, is progressive and best suited, given the constitutional framework of India.\n\n
+At IndiaGST, we aim to be a platform that meets all your needs of GST, be in providing correct understanding of law, facilitate compliance to the law or protecting your needs, by representing on your behalf, before the departmental authority or Appellate Authority. </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

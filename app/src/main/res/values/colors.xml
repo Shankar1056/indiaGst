@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006967</color>
+    <color name="colorPrimaryDark">#015452</color>
+
+    <color name="colorUnselected">#00BFBC</color>
+    <color name="colorSelected">#FFFFFF</color>
+
+    <color name="colorWindowBackground">#F4F4F4</color>
+
+    <color name="colorCategory">#282828</color>
+    <color name="colorSubCategory">#545454</color>
+    <color name="colorBorder">#F5F5F5</color>
+
+    <color name="colorIGST">#F0782F</color>
+    <color name="colorSGST">#3BB3E5</color>
+    <color name="colorCGST">#F23B55</color>
+    <color name="colorUTGST">#9261DA</color>
+    <color name="colorOTHER">#70AB1A</color>
+
+    <color name="colorDarkIGST">#cf6626</color>
+    <color name="colorDarkSGST">#3295bf</color>
+    <color name="colorDarkCGST">#d9364d</color>
+    <color name="colorDarkUTGST">#6161da</color>
+    <color name="colorDarkOTHER">#629617</color>
+
+    <color name="grey_100">#F4F4F4</color>
+    <color name="grey_550">#868686</color>
+    <color name="grey_600">#80757575</color>
+    <color name="grey_850">#2F2F2F</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bg_state_spinner">#3D9C99</color>
+
+    <color name="colorTutorial">#eacc42</color>
+    <color name="colorTutorialDark">#d2b73a</color>
+    <color name="colorRegistrationDark">#3dc155</color>
+    <color name="colorRegistration">#45e162</color>
+    <color name="colorTransitionalProvisionalDark">#3badca</color>
+    <color name="colorTransitionalProvisional">#42c1e1</color>
+</resources>

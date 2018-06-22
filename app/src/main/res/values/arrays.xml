@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="titles_tab_home">
+		<item>Home</item>
+		<item>News</item>
+		<item>My Account</item>
+	</string-array>
+
+	<string-array name="notification_tab_name">
+		<item>Tariff</item>
+		<item>Non-Tariff</item>
+		<item>Others</item>
+	</string-array>
+
+	<string-array name="titles_law">
+		<item>@string/igst_law</item>
+		<item>@string/sgst_law</item>
+		<item>@string/cgst_law</item>
+		<item>@string/utgst_law</item>
+		<item>@string/other</item>
+	</string-array>
+
+	<string-array name="laws">
+		<item>igst</item>
+		<item>sgst</item>
+		<item>cgst</item>
+		<item>utgst</item>
+	</string-array>
+
+	<string-array name="titles_transitional_provision">
+		<item>IGST</item>
+		<item>States</item>
+	</string-array>
+
+	<string-array name="values_transitional_provision">
+		<item>igst</item>
+		<item>state</item>
+	</string-array>
+</resources>

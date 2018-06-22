@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:card_view="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<android.support.v7.widget.CardView
+		android:id="@+id/card_view"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		card_view:cardCornerRadius="0dp"
+		card_view:cardElevation="4dp"
+		card_view:cardUseCompatPadding="true">
+
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<com.google.android.youtube.player.YouTubeThumbnailView
+				android:id="@+id/youtube_thumbnail"
+				android:layout_width="match_parent"
+				android:layout_height="180dp"
+				android:scaleType="centerCrop"
+				android:src="@color/grey_850"/>
+
+			<ImageView
+				android:id="@+id/btnYoutube_player"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:src="@drawable/youtube_icon"/>
+		</FrameLayout>
+
+		<TextView
+			android:id="@+id/tv_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="180dp"
+			android:fontFamily="sans-serif-medium"
+			android:padding="@dimen/activity_horizontal_margin"
+			android:textSize="16sp"
+			tools:text="LOREM IPSUM"/>
+	</android.support.v7.widget.CardView>
+</LinearLayout>

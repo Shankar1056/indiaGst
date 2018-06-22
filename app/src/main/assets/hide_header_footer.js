@@ -1,0 +1,12 @@
+var styleTag = document.createElement("style");
+var styleTag2 = document.createElement("style");
+var styleTag3 = document.createElement("style");
+var styleTag4 = document.createElement("style");
+styleTag.textContent = 'section.inner-banner-container.block.whitecolor.aboutus-bg.text-center {display:none;}';
+styleTag2.textContent = 'div.header-menucontainer.flex.transition {display:none;}';
+styleTag3.textContent = 'section.footerdiv.block.paddintopbottom40.whitecolor {display:none;}';
+styleTag4.textContent = 'footer.block.copyright-container.text-center {display:none;}';
+document.documentElement.appendChild(styleTag);
+document.documentElement.appendChild(styleTag2);
+document.documentElement.appendChild(styleTag3);
+document.documentElement.appendChild(styleTag4);
